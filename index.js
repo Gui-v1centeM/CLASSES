@@ -1,3 +1,9 @@
-// run `node index.js` in the terminal
+class pessoa {
+    nome = "Maria";
+    ideade = 20;
 
-console.log(`Hello Node.js v${process.versions.node}!`);
+    apressentar(){
+        console.log(`Olá! Meu nome é ${nome} e tenho ${ideade} anos.`
+        )
+    }
+}
